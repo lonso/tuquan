@@ -15,8 +15,10 @@ http://chanyouji.com/
 **架构**
 
 图片存储：不打算直接简单上传到目录，可用qiniu（简单、划算）或者自建图片系统（更可控、略麻烦，倾向于TFS、FASTDFS）
-图片元数据存储：图片的标签、描述等数据，用MySQL,MongoDB,Redis等都可以
-web端：bootstrap, nodejs, express（简单，但不一定最佳）
+
+图片元数据存储：图片的标签、描述等数据，用MongoDB,Redis
+
+web端：bootstrap, nodejs, express,koa
 
 
 **开发协作方式**
